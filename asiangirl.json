@@ -1,0 +1,50 @@
+{
+    "default_model": "sdxl10ArienmixxlAsian_v30Pruned.safetensors",
+    "default_refiner": "",
+    "default_refiner_switch": 0.5,
+    "default_loras": [
+        [
+            "perfect hands 2.safetensors",
+            0.4
+        ],
+        [
+            "None",
+            1.0
+        ],
+        [
+            "None",
+            1.0
+        ],
+        [
+            "None",
+            1.0
+        ],
+        [
+            "None",
+            1.0
+        ]
+    ],
+    "default_cfg_scale": 3.0,
+    "default_sample_sharpness": 2.0,
+    "default_sampler": "dpmpp_2m_sde_gpu",
+    "default_scheduler": "karras",
+    "default_performance": "Speed",
+	"default_image_number": 1,
+    "default_prompt": "",
+    "default_prompt_negative": "unrealistic, saturated, high contrast, big nose, painting, drawing, sketch, cartoon, anime, manga, render, CG, 3d, watermark, signature,label,embedding:negative_hand-neg,embedding:EasyNegative,embedding:unaestheticXLv31",
+    "default_styles": [
+        "Fooocus V2",
+        "Fooocus Photograph",
+        "Fooocus Negative",
+		"Fooocus Cinematic"
+    ],
+    "default_aspect_ratio": "1024*1024",
+	
+    "checkpoint_downloads": {
+        "realisticStockPhoto_v10.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/realisticStockPhoto_v10.safetensors"
+    },
+    "embeddings_downloads": {},
+    "lora_downloads": {
+        "SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors"
+    }
+}
